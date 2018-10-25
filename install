@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-TAG=0.2.0.0
+TAG=0.4.0.0
 
 # exit if there is evidence of installation
 [ -e ./spacchetti.tar.gz ] && exit 0;
@@ -12,7 +12,7 @@ rm ./spacchetti
 # osx or linux install
 if [ "$(uname -s)" == "Darwin" ]
 then
-  curl --location --output ./spacchetti.tar.gz --silent https://github.com/justinwoo/spacchetti-cli/releases/download/$TAG/macos.tar.gz
+  curl --location --output ./spacchetti.tar.gz --silent https://github.com/justinwoo/spacchetti-cli/releases/download/$TAG/osx.tar.gz
 else
   wget -O ./spacchetti.tar.gz https://github.com/justinwoo/spacchetti-cli/releases/download/$TAG/linux.tar.gz
 fi
