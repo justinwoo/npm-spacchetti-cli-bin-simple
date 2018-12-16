@@ -1,5 +1,7 @@
 # npm-spacchetti-cli-bin-simple
 
+## This is discontinued as Spago replaces it: <https://github.com/spacchetti/spago/tree/master/npm>
+
 A simple distribution of spacchetti-cli using NPM. Assumes almost nothing other than Linux/OSX.
 
 npm package link: <http://npmjs.com/package/spacchetti-cli-bin-simple>
